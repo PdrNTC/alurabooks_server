@@ -5,6 +5,6 @@ const router = Router();
 
 router.get("/", getFavoritos)
 router.post("/:id", postFavorito)
-router.post("/:id", deleteFavorito)
+router.delete("/:id", deleteFavorito)
 
 module.exports = router // exportando igual ao react para usar em outros arquivos.
